@@ -6,7 +6,12 @@ int sum(int *p, int *q) {
 }
 
 int main() {
-    int a = 10, b = 20, tong;
+    int tong;
+    int a, b;
+    printf("Nhập vào a: ");
+    scanf("%d", &a);
+    printf("Nhập vào b: ");
+    scanf("%d", &b);
     tong = sum(&a, &b);
     printf("Tổng của a và b là: %d\n", tong);
     return 0;
